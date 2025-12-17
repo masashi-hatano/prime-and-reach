@@ -21,7 +21,7 @@ We curate prime and reach sequences from 5 different datasets:
 - **ADT**
 - **GIMO**
 
-<img src="assets/dataset_samples.png" alt="Example Sequences" width="500"/>
+<img src="assets/dataset_samples.png" alt="Example Sequences" width="1000"/>
 
 The dataset provides motion and gaze data across these sources.
 
