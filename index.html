@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description"
+    content="This is a project page for Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach">
+  <meta property="og:title" content="Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach">
+  <meta property="og:description"
+    content="This is a project page for Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach">
+  <meta property="og:url" content="https://masashi-hatano.github.io/prime-and-reach/">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords"
+    content="gaze, human motion synthesis, diffusion model, egocentric vision, human-object interaction, prime and reach, HD-EPIC, MoGaze, HOT3D, ADT, GIMO">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="icon" href="static/figures/icon2.png">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+
+  <section class="publication-header">
+    <div class="hero-body">
+      <div class="container is-max-widescreen">
+        <!-- <div class="columns is-centered"> -->
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">Prime and Reach:<br>Synthesising Body Motion for Gaze-Primed Object
+            Reach</h1>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="publication-author-block">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+
+            <div class="column has-text-centered">
+              <div class="is-size-5 publication-authors">
+                <span class="author-block">
+                  <a href="https://masashi-hatano.github.io/" target="_blank">Masashi
+                    Hatano</a><sup>1</sup><sup>*</sup>,
+                  <a href="https://sinhasaptarshi.github.io/" target="_blank">Saptarshi
+                    Sinha</a><sup>2</sup><sup>*</sup>,
+                  <a href="https://jacobchalk.github.io/" target="_blank">Jacob Chalk</a><sup>2</sup>,
+                  <br />
+                  <a href="https://weihonglee.github.io" target="_blank">Wei-Hong Li</a><sup>2</sup>,
+                  <a href="https://scholar.google.co.jp/citations?user=JU9x-bcAAAAJ&hl=en&oi=ao" target="_blank">Hideo
+                    Saito</a><sup>1</sup>,
+
+                  <a href="https://dimadamen.github.io" target="_blank">Dima Damen</a><sup>2</sup>
+                  <!-- <span class="author-block"><a href="https://www.cs.tau.ac.il/~amberman/" target="_blank">Amit H. Bermano</a><sup>1</sup></span>,
+                                    <a href="https://www.cs.ubc.ca/~van/" target="_blank">Michiel van de
+                                        Panne</a><sup>2</sup> -->
+              </div>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Keio University</span>
+              <span class="author-block"><sup>2</sup>University of Bristol</span>
+              <span class="author-block"><sup>*</sup>:Equal Contribution</span>
+              <!-- <br>
+                            <span class="author-block"><sup>3</sup>Carnegie Mellon University,</span>
+                            <span class="author-block"><sup>4</sup>Simon Fraser University,</span>
+                            <span class="author-block"><sup>5</sup>NVIDIA</span> -->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="" target="_blank" class="external-link button is-normal is-rounded">
+                    <!-- <a href="paper.pdf" target="_blank"
+                                        class="external-link button is-normal is-rounded"> -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a target="_blank" class="button is-normal is-rounded" disabled style="pointer-events: none;">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming soon)</span>
+                  </a>
+                </span>
+
+                <!-- <span class="link-block">
+                  <a href="" target="_blank" class="external-link button is-normal is-rounded">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span> -->
+
+                <!-- Data Link -->
+                <span class="link-block">
+                  <a href="https://uob-my.sharepoint.com/:f:/g/personal/ve22636_bristol_ac_uk/IgCGqhTjsmu8T6V1LJS8ydcFAXx1FlVkRlW77uhe19IDz44?e=S5AEG9"
+                    target="_blank" class="external-link button is-normal is-rounded">
+                    <span class="icon">
+                      <!-- <img src="https://huggingface.co/favicon.ico" alt="Hugging Face Logo"
+                        style="width: 20px; height: 20px;" /> -->
+                      <i class="fa fa-database"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+
+                <!-- <span class="link-block">
+                                    <a href="" target="_blank"
+                                        class="external-link button is-normal is-rounded">
+                                        <span class="icon">
+                                            <i class="fas fa-atom"></i>
+                                        </span>
+                                        <span>Two Minutes Paper</span>
+                                    </a>
+                                </span> -->
+
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Teaser Image -->
+  <section class="section hero is-small">
+    <div class="container is-max-desktop">
+      <img src="static/figures/egoallo_sequence.jpg" alt="teaser1" width="49%" />
+      <img src="static/figures/egoallo_sequence_2.jpg" alt="teaser2" width="49%" />
+      <figcaption><b>Prime & Reach</b> sequences from HD-EPIC, using full-body pose from EgoAllo. <b>(Left)</b> A
+        sequence starting with the intention to reach the container (<span style="color: rgb(0, 255, 255);">cyan
+          sphere</span>). Gaze priming is evident (gaze intersecting the object) during the approach before reaching
+        the object. <b>(Right)</b> Similar
+        behaviour is noted for priming and picking up the scale (<span style="color: rgb(0, 255, 255);">cyan
+          sphere</span>). [darker colors indicate later time].</figcaption>
+    </div>
+  </section>
+  <!-- End teaser image -->
+
+  <!-- Results carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container is-max-desktop is-centered has-text-centered" style="text-align: center;">
+        <h2 class="title is-3 is-centered has-text-centered">Prime & Reach Motion Generation</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted loop width="80%">
+              <source src="static/figures/mogaze1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/mogaze2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/adt1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/adt2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/hdepic1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/hdepic2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/hdepic3.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- End results carousel -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Human motion generation is a challenging task that aims to create realistic motion imitating natural human
+              behaviour.
+              We focus on the well-studied behaviour of priming an object/location for pick up or put down &ndash; that
+              is,
+              the spotting of an object/location from a distance, known as gaze priming, followed by the motion of
+              approaching and reaching the target location.
+              To that end, we curate, for the first time, 23.7K gaze-primed human motion sequences for reaching target
+              object locations from five publicly available datasets, i.e., HD-EPIC, MoGaze, HOT3D, ADT, and GIMO.
+
+              We pre-train a text-conditioned diffusion-based motion generation model, then fine-tune it conditioned on
+              goal pose or location, on our curated sequences.
+              Importantly, we evaluate the ability of the generated motion to imitate natural human movement through
+              several metrics, including the `Reach Success' and a newly introduced `Prime Success' metric.
+              On the largest dataset, HD-EPIC, our model achieves 60% prime success and 89% reach success when
+              conditioned on the goal object location.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <h2 class="title is-3 is-centered has-text-centered">Prime and Reach Data Curation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              A critical aspect largely unexplored is the role of gaze in priming or &lsquo;spotting&rsquo; objects
+              prior to the reaching motion. We take this missed opportunity and curate for the first time prime and
+              reach motion sequences. In total, we curate <b>23,728</b> prime and reach sequences from five datasets
+              namely <a href="https://hd-epic.github.io/" target="_blank">ED-EPIC</a>, <a
+                href="https://humans-to-robots-motion.github.io/mogaze/" target="_blank">MoGaze</a>, <a
+                href="https://facebookresearch.github.io/hot3d/" target="_blank">HOT3D</a>, <a
+                href="https://www.projectaria.com/datasets/adt/" target="_blank">ADT</a> and <a
+                href="https://geometry.stanford.edu/projects/gimo/" target="_blank">GIMO</a>. We showcase
+              sample prime and reach sequences and data
+              statistics below.
+            </p>
+            <div class="column is-centered has-text-centered">
+              <div id="results-carousel" class="carousel results-carousel">
+                <div class="column is-centered has-text-centered carousel-item-wrapper">
+                  <img src="static/figures/prime_and_reach_v2.jpg" alt="" width="90%" />
+                </div>
+                <div class="column is-centered has-text-centered carousel-item-wrapper">
+                  <img src="static/figures/data_stats_v2.jpg" alt="" width="90%" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="item">
+            <h2 class="title is-3">Prime & Reach Motion Diffusion Model</h2>
+            <div class="content has-text-justified">
+              <p>
+                We generate human motion sequences \(\{x^i\}_{i=1}^N\), where \(x^i \in R^{J\times 3}\) represents \(J\)
+                body joints.
+                <!-- guided either by desired <b>goal pose</b> or target <b>goal object location</b> as a
+                condition.  -->
+                Starting from pure noise, the transformer decoder generates motion through iterative
+                denoising over multiple diffusion timesteps \(t=\{T, ... , 0\}\), producing clean motion at \(t=0\).
+                This generation is guided through a set of conditions injected into the decoder. We condition our prime
+                and reach motion generation on &mdash;
+              <ul>
+                <li><b>Text prompt</b>:
+                  We describe the action as e.g., &lsquo;The person moves across and picks/puts an object.&rsquo;
+                <li><b>Initial state</b> of the body describing where and how the motion initiates.
+                <li><b>Goal:</b> (1) <b>goal pose</b> at the end of the motion or (2) <b>goal location</b> to
+                  reach.
+              </ul>
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Image Approach -->
+  <section class="section hero">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <!-- <h2 class="title is-3">Our Method, P&R</h2> -->
+          <div style="text-align: center;">
+            <img src="static/figures/prime_and_reach-method.jpg" style="width: 80%; height: auto;" alt="MY ALT TEXT" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image Approach -->
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Qualitative Results</h2>
+          <div class="content has-text-justified">
+            <br>
+            <div class="columns is-centered has-text-centered">
+              <img src="static/figures/qualitative-v4.jpg" alt="" width="100%" />
+            </div>
+            <p style="text-align: left;">
+              We showcase some qualitative results on 3 datasets: Ground truth sequence in <span
+                style="color: rgb(84, 204, 66);">light green</span>, goal-pose conditioned prediction in <span
+                style="color: rgb(204, 166.515, 61.96);">translucent yellow</span>, and target location conditioned
+              generation in <span style="color: rgb(212.67, 90.015, 23.205);">brown</span>. We show the pose at the
+              initial, prime, and reach timesteps. Prime direction for both ground truth and predictions are shown using
+              <span style="color: #7F8AA9;">arrows</span>, and target object location is shown in <span
+                style="color: rgb(13.26, 204, 10.71);">sphere</span>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop">
+      <h2 class="title">BibTex</h2>
+      <pre><code>
+	@article{
+		hatano2025primeandreach,
+		title={Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach},
+		author={Hatano, Masashi and Sinha, Saptarshi and Chalk, Jacob and Li, Wei-Hong and Saito, Hideo and Damen, Dima},
+		journal={arXiv preprint arxiv:2512.XXXXX},
+		year={2025},
+	}
+    </code></pre>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+              <b>Acknoweledgements:</b> This work uses publicly available datasets and annotations to curate P&R
+              sequences. Research at the University of Bristol is supported by EPSRC UMPIRE
+              (EP/T004991/1).
+              M Hatano is supported by JST BOOST, Japan
+              Grant Number JPMJBS2409, and Amano Institute of
+              Technology.
+              S Sinha and J Chalk are supported by EPSRC DTP studentship.
+              <!-- <br> -->
+              At Keio University, we used ABCI 3.0 provided by AIST and AIST Solutions.
+              <!-- <br> -->
+              At the University of Bristol, we acknowledge the use of resources provided by the Isambard-AI National AI
+              Research Resource (AIRR), funded by the UK Government's Department for Science, Innovation and
+              Technology
+              (DSIT) via UK Research and Innovation; and the Science and Technology Facilities Council
+              [ST/AIRR/I-A-I/1023].
+              In particular, we acknowledge the usage of GPU Node hours granted as part of the Sovereign AI Unit call
+              project &ldquo;Gen Model in Ego-sensed World&rdquo; (Aug-Nov 2025) as well as the usage of GPU Node hours
+              granted by
+              AIRR Early Access Project ANON-BYYG-VXU6-M (March-May 2025).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website source code based on the <a href="https://nerfies.github.io/"> Nerfies</a> project page. If you want
+            to reuse their <a href="https://github.com/nerfies/nerfies.github.io">source code</a>, please credit them
+            appropriately.
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+  <script type="text/javascript">
+    var sc_project = 12351448;
+    var sc_invisible = 1;
+    var sc_security = "c676de4f"; 
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
+          class="statcounter" src="https://c.statcounter.com/12351448/0/c676de4f/1/" alt="Web Analytics"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
