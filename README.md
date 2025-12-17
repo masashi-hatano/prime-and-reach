@@ -97,7 +97,7 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
   journal={IEEE Robotics and Automation Letters}, 
   title={MoGaze: A Dataset of Full-Body Motions that Includes Workspace Geometry and Eye-Gaze}, 
   year={2021},
-  pages={367-373},
+  pages={367-373}
 }
 ```
 ```bibtex
@@ -124,6 +124,6 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
   author={Zheng, Yang and Yang, Yanchao and Mo, Kaichun and Li, Jiaman and Yu, Tao and Liu, Yebin and Liu, C Karen and Guibas, Leonidas J},
   booktitle={European Conference on Computer Vision},
   pages={676--694},
-  year={2022},
+  year={2022}
 }
 ```
