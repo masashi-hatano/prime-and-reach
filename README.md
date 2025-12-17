@@ -76,7 +76,7 @@ If you find our work useful in your research, please consider citing:
   title={Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach},
   author={Hatano, Masashi and Sinha, Saptarshi and Chalk, Jacob and Li, Wei-Hong and Saito, Hideo and Damen, Dima},
   journal={arXiv preprint arxiv:2512.XXXXX},
-  year={2025},
+  year={2025}
 }
 ```
 
