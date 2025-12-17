@@ -97,18 +97,14 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
   journal={IEEE Robotics and Automation Letters}, 
   title={MoGaze: A Dataset of Full-Body Motions that Includes Workspace Geometry and Eye-Gaze}, 
   year={2021},
-  volume={6},
-  number={2},
   pages={367-373},
-  keywords={Robots;Cameras;Task analysis;Tracking;Three-dimensional displays;Pupils;Linux;Datasets for human motion;human-centered robotics;modeling and simulating humans},
-  doi={10.1109/LRA.2020.3043167}}
+}
 ```
 ```bibtex
 @inproceedings{Banerjee_2025_CVPR,
     author    = {Banerjee, Prithviraj and Shkodrani, Sindi and Moulon, Pierre and Hampali, Shreyas and Han, Shangchen and Zhang, Fan and Zhang, Linguang and Fountain, Jade and Miller, Edward and Basol, Selen and Newcombe, Richard and Wang, Robert and Engel, Jakob Julian and Hodan, Tomas},
     title     = {HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
     year      = {2025},
     pages     = {7061-7071}
 }
@@ -118,7 +114,6 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
     author    = {Pan, Xiaqing and Charron, Nicholas and Yang, Yongqian and Peters, Scott and Whelan, Thomas and Kong, Chen and Parkhi, Omkar and Newcombe, Richard and Ren, Yuheng (Carl)},
     title     = {Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception},
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
     year      = {2023},
     pages     = {20133-20143}
 }
@@ -130,6 +125,5 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
   booktitle={European Conference on Computer Vision},
   pages={676--694},
   year={2022},
-  organization={Springer}
 }
 ```
