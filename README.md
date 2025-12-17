@@ -86,7 +86,6 @@ Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you sho
     author={Perrett, Toby and Darkhalil, Ahmad and Sinha, Saptarshi and Emara, Omar and Pollard, Sam and Parida, Kranti Kumar and Liu, Kaiting and Gatti, Prajwal and Bansal, Siddhant and Flanagan, Kevin and Chalk, Jacob and Zhu, Zhifan and Guerrier, Rhodri and Abdelazim, Fahd and Zhu, Bin and Moltisanti, Davide and Wray, Michael and Doughty, Hazel and Damen, Dima},
     title={HD-EPIC: A Highly-Detailed Egocentric Video Dataset},
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month={June},
     year={2025},
     pages={23901-23913}
 }
