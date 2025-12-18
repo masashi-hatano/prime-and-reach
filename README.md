@@ -2,15 +2,12 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/arXiv-2504.08654-red)](https://arxiv.org/abs/2512.XXXXX)
+[![Paper](https://img.shields.io/badge/arXiv-25012.XXXXX-red)](https://arxiv.org/abs/2512.XXXXX)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://masashi-hatano.github.io/prime-and-reach/)
 
 </div>
 
 **This is the official code releasse for "Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach".**
-
-
-The code will be available upon acceptance.
 
 
 ## Dataset Overview
@@ -80,7 +77,7 @@ If you find our work useful in your research, please consider citing:
 }
 ```
 
-Since we use `HDEPIC, MoGaze, HOT3D, ADT, GIMO` to curate our sequences, you should cite each of the datasets as below
+Since we use [HD-EPIC](https://hd-epic.github.io/), [MoGaze](https://humans-to-robots-motion.github.io/mogaze/), [HOT3D](https://facebookresearch.github.io/hot3d/), [ADT](https://www.projectaria.com/datasets/adt/), and [GIMO](https://geometry.stanford.edu/projects/gimo/) to curate our sequences, you should cite each of the datasets as below
 ```bibtex
 @inproceedings{Perrett_2025_CVPR,
     author={Perrett, Toby and Darkhalil, Ahmad and Sinha, Saptarshi and Emara, Omar and Pollard, Sam and Parida, Kranti Kumar and Liu, Kaiting and Gatti, Prajwal and Bansal, Siddhant and Flanagan, Kevin and Chalk, Jacob and Zhu, Zhifan and Guerrier, Rhodri and Abdelazim, Fahd and Zhu, Bin and Moltisanti, Davide and Wray, Michael and Doughty, Hazel and Damen, Dima},
