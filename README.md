@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/arXiv-25012.XXXXX-red)](https://arxiv.org/abs/2512.XXXXX)
+[![Paper](https://img.shields.io/badge/arXiv-25012.16456-red)](https://arxiv.org/abs/2512.16456)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://masashi-hatano.github.io/prime-and-reach/)
 
 </div>
@@ -72,7 +72,7 @@ If you find our work useful in your research, please consider citing:
 @article{hatano2025primeandreach,
   title={Prime and Reach: Synthesising Body Motion for Gaze-Primed Object Reach},
   author={Hatano, Masashi and Sinha, Saptarshi and Chalk, Jacob and Li, Wei-Hong and Saito, Hideo and Damen, Dima},
-  journal={arXiv preprint arxiv:2512.XXXXX},
+  journal={arXiv preprint arxiv:2512.16456},
   year={2025}
 }
 ```
