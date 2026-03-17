@@ -151,7 +151,8 @@
       <img src="static/figures/egoallo_sequence_2.jpg" alt="teaser2" width="49%" />
       <figcaption><b>Prime & Reach</b> sequences from HD-EPIC, using full-body pose from EgoAllo. <b>(Left)</b> A
         sequence starting with the intention to reach the container (<span style="color: rgb(0, 255, 255);">cyan
-          sphere</span>). Gaze priming is evident (gaze intersecting the object) during the approach before reaching
+          sphere</span>). Gaze priming is evident -gaze (<span style="color: rgb(0, 100, 0);">green plus</span>)
+        intersecting the object- during the approach before reaching
         the object. <b>(Right)</b> Similar
         behaviour is noted for priming and picking up the scale (<span style="color: rgb(0, 255, 255);">cyan
           sphere</span>). [darker colors indicate later time].</figcaption>
@@ -168,37 +169,47 @@
 
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted loop width="80%">
-              <source src="static/figures/mogaze1.mp4" type="video/mp4">
+              <source src="static/figures/mogaze_1.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/mogaze2.mp4" type="video/mp4">
+              <source src="static/figures/mogaze_2.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/adt1.mp4" type="video/mp4">
+              <source src="static/figures/mogaze_3.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/adt2.mp4" type="video/mp4">
+              <source src="static/figures/hdepic_1.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/hdepic1.mp4" type="video/mp4">
+              <source src="static/figures/hdepic_2.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/hdepic2.mp4" type="video/mp4">
+              <source src="static/figures/mogaze_4.mp4" type="video/mp4">
             </video>
           </div>
           <div class="column is-centered has-text-centered">
             <video poster="" id="tree" autoplay muted width="80%">
-              <source src="static/figures/hdepic3.mp4" type="video/mp4">
+              <source src="static/figures/mogaze_5.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/adt_1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="column is-centered has-text-centered">
+            <video poster="" id="tree" autoplay muted width="80%">
+              <source src="static/figures/hdepic_3.mp4" type="video/mp4">
             </video>
           </div>
         </div>
@@ -218,19 +229,17 @@
             <p>
               Human motion generation is a challenging task that aims to create realistic motion imitating natural human
               behaviour.
-              We focus on the well-studied behaviour of priming an object/location for pick up or put down &ndash; that
-              is,
+              We focus on the well-studied behaviour of priming an object/location for pick up or put down - that is,
               the spotting of an object/location from a distance, known as gaze priming, followed by the motion of
               approaching and reaching the target location.
               To that end, we curate, for the first time, 23.7K gaze-primed human motion sequences for reaching target
               object locations from five publicly available datasets, i.e., HD-EPIC, MoGaze, HOT3D, ADT, and GIMO.
-
               We pre-train a text-conditioned diffusion-based motion generation model, then fine-tune it conditioned on
               goal pose or location, on our curated sequences.
               Importantly, we evaluate the ability of the generated motion to imitate natural human movement through
-              several metrics, including the `Reach Success' and a newly introduced `Prime Success' metric.
-              On the largest dataset, HD-EPIC, our model achieves 60% prime success and 89% reach success when
-              conditioned on the goal object location.
+              several metrics, including the 'Reach Success' and a newly introduced 'Prime Success' metric.
+              Tested on 5 datasets, our model generates diverse full-body motion, exhibiting both priming and reaching
+              behaviour, and outperforming baselines and recent methods.
             </p>
           </div>
         </div>
@@ -263,7 +272,7 @@
                   <img src="static/figures/prime_and_reach_v2.jpg" alt="" width="90%" />
                 </div>
                 <div class="column is-centered has-text-centered carousel-item-wrapper">
-                  <img src="static/figures/data_stats_v2.jpg" alt="" width="90%" />
+                  <img src="static/figures/data_stats.jpg" alt="" width="70%" />
                 </div>
               </div>
             </div>
@@ -310,7 +319,7 @@
         <div class="column is-four-fifths">
           <!-- <h2 class="title is-3">Our Method, P&R</h2> -->
           <div style="text-align: center;">
-            <img src="static/figures/prime_and_reach-method.jpg" style="width: 80%; height: auto;" alt="MY ALT TEXT" />
+            <img src="static/figures/method.jpg" style="width: 100%; height: auto;" alt="MY ALT TEXT" />
           </div>
         </div>
       </div>
@@ -326,7 +335,7 @@
           <div class="content has-text-justified">
             <br>
             <div class="columns is-centered has-text-centered">
-              <img src="static/figures/qualitative-v4.jpg" alt="" width="100%" />
+              <img src="static/figures/qualitative.jpg" alt="" width="100%" />
             </div>
             <p style="text-align: left;">
               We showcase some qualitative results on 3 datasets: Ground truth sequence in <span
