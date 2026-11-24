@@ -22,7 +22,7 @@ We curate prime and reach sequences from 5 different datasets:
 
 The dataset provides motion and gaze data across these sources.
 
-You can download the dataset [here](https://uob-my.sharepoint.com/:f:/g/personal/ve22636_bristol_ac_uk/IgCGqhTjsmu8T6V1LJS8ydcFAVubcEW-b4UCIP60kIokv-w?e=6flrzW).
+You can download the dataset [here](https://uob-my.sharepoint.com/:f:/g/personal/ve22636_bristol_ac_uk/IgCGqhTjsmu8T6V1LJS8ydcFAVubcEW-b4UCIP60kIokv-w?e=OsZONi).
 
 The data is organized by source dataset. Each dataset folder contains subdirectories for `motions` and `gazes`.
 
